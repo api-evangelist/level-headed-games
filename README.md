@@ -64,33 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Level Headed Games (Level Headed, LLC) is an independent video game studio building an original online
-cooperative multiplayer game. The studio describes itself as passionate about making immersive
-experiences that let players express themselves and have fun with their friends, and is building "fun,
-surprising, and heavily social video game worlds." Development is community-involved, with an open call
-for co-op players to join an Alpha playtest community.
+Level Headed Games (Level Headed, LLC) is an independent video game studio building an original online cooperative multiplayer game. The studio describes itself as passionate about making immersive experiences that let players express themselves and have fun with their friends, and is building "fun, surprising, and heavily social video game worlds." Development is community-involved, with an open call for co-op players to join an Alpha playtest community and an email announcement list. As of this enrichment pass the studio publishes only a single-page marketing site with no announced title, no public developer surface, and no API, SDK, documentation, or developer portal.
 
-Backed by: a16z (surfaced from the a16z investment list; not confirmed on the studio's own site)
+**Areas:** Company · Video Games · Game Development · Game Studio · Cooperative Multiplayer · Consumer
 
-## API surface
+## Level Headed Games on APIs.io
 
-**None.** As of the 2026-07-19 enrichment pass this studio publishes no API, SDK, developer
-documentation, developer portal, changelog, status page, or public GitHub organization. Its only public
-web property is a single-page marketing site. This profile is retained as a venture-portfolio company
-record, not as an API provider.
+Everything profiled for Level Headed Games is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/level-headed-games/](https://apis.io/providers/level-headed-games/)** — or go straight to one of the APIs or properties below.
 
-Probed and confirmed absent: `/.well-known/security.txt`, `/.well-known/openid-configuration`,
-`/.well-known/oauth-authorization-server`, `/.well-known/api-catalog`, `/.well-known/ai-plugin.json`,
-`/llms.txt`, `/openapi.json`, `/docs`, `/developers`, `/api`.
+### Published properties
 
-## Identity caveat
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-The a16z investment-list entry supplied only a company name with no URL. `levelheadedgames.com` was
-matched on exact name, sector, and the `level-headed-games` LinkedIn slug. The binding is **probable,
-not verified** — see `x-identity-note` in `apis.yml`.
+#### Security (1)
 
-## Artifacts
+Authentication, trust centre, and vulnerability disclosure.
 
-- `security/level-headed-games-domain-security.yml` — probed TLS/HSTS/DNS posture
-- `well-known/level-headed-games-well-known.yml` — negative discovery-surface probe record
-- `llms/level-headed-games-llms.txt` — generated catalog summary
+- [Level Headed Games Domain Security](https://apis.io/security/level-headed-games/level-headed-games-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://levelheadedgames.com/)
+
+## API Evangelist rating
+
+**Kin Score 4.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/level-headed-games/](https://apis.io/providers/level-headed-games/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Level Headed Games: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/level-headed-games/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
